@@ -11,33 +11,24 @@ body{
 }
 
 .img{
-    /*margin-top: 15px;
+    margin-top: 15px;
     width: 2.5%;
     margin-right: 2rem;
-    vertical-align: middle;*/
-    margin-top: 15px;
-    max-width: 2%;
     vertical-align: middle;
+    transition: 3s;
 }
 
 header h1{
-    /*display: flex;
+    display: flex;
     justify-content:center;
     align-items: center;
     color: #5F7464;
     font-size: 35px;
     text-decoration: underline;
-    margin-top: 15px;*/
-    text-align: center;
-    color: #5F7464;
-    font-size: 35px;
-    text-decoration: underline;
-    margin-top: 15px;
-   
+    margin-top: 15px;  
 }
 
 .menu{
-    /*background-color: #7882A4;*/
     margin-top: 40px;
     margin-left: 15px;
     margin-right: 15px;
@@ -68,8 +59,10 @@ header h1{
 
 /* esto se hace para cuando se pase el mause por el los li muestre un color en especial */
 .menu ul li:hover{
-    background-color: #2E4C6D;
-    border-radius: 2rem; 
+    background-image:linear-gradient(#3d4956, #6987a8);
+    /*background-color: #2E4C6D;*/
+    border-radius: 2rem;
+    transform: translate(5px, 5px);
 }
 
 main{
