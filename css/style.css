@@ -15,7 +15,7 @@ body{
     width: 2.5%;
     margin-right: 2rem;
     vertical-align: middle;
-    transition: 3s;
+    transition: 2.8s;
 }
 
 header h1{
@@ -62,7 +62,7 @@ header h1{
     background-image:linear-gradient(#3d4956, #6987a8);
     /*background-color: #2E4C6D;*/
     border-radius: 2rem;
-    transform: translate(5px, 5px);
+    transform: translate(4px, 4px);
 }
 
 main{
