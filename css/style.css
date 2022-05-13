@@ -46,6 +46,7 @@ header h1{
 }
 
 .menu ul li{
+    display: flex;
     margin: 0.5rem;
     background-color: #5F7464;
     border-radius: 1.3rem;
