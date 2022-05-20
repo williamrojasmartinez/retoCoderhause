@@ -61,10 +61,39 @@ header h1{
 /* esto se hace para cuando se pase el mause por el los li muestre un color en especial */
 .menu ul li:hover{
     background-image:linear-gradient(#3d4956, #6987a8);
-    /*background-color: #2E4C6D;*/
     border-radius: 2rem;
     transform: translate(4px, 4px);
 }
+
+
+.menuContacto{
+    margin-top: 50px; 
+}
+
+.menuContacto ul{
+    list-style: none;
+    color: rgb(8, 57, 48);
+    font-size: 1.1rem;
+}
+
+.menuContacto ul li a{
+    text-decoration: none;
+    color: rgb(8, 57, 48);
+}
+
+.menuContacto ul li{
+    margin: 0.5rem;
+    background-color: #5F7464;
+    border-radius: 1.3rem;
+    padding: 0.6rem;
+}
+
+.menuContacto ul li:hover{
+    background-image:linear-gradient(#3d4956, #6987a8);
+    border-radius: 2rem;
+    transform: translate(4px, 4px);
+}
+
 
 main{
     margin-left: 1rem;
@@ -431,21 +460,11 @@ main div h3 a{
 }
 
 
-
-
-
-
-
-
-
-
 /*----------------------------------------------------------*/
-main .formContacto{
-    margin: auto;
-    margin-top: 15rem;
-    text-align: center;
-    width: 28rem;
-    height: 430px;
+
+.form{
+    margin-top: 10rem;
+    height: 35rem;
 }
 
 footer{

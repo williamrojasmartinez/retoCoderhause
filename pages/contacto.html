@@ -8,6 +8,9 @@
     <!--cdn Animaciones-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
 
+    <!--lINK Boostrap-->
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
@@ -16,54 +19,83 @@
         <header>
             <h1 class=" animate__animated animate__bounce"><img class="img" alt="" src="../img/logo.png">Contacto</h1>
 
-            <nav class="menu">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="destinos.html">Destinos</a</li>
-                    <li><a href="queHacer.html">Que hacer</a></li>
-                    <li><a href="cultura.html">Cultura</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+       
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse menuContacto" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="destinos.html">Destinos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="queHacer.html">Que hacer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cultura.html">Cultura</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html">Contacto</a> 
+                            </ul> 
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                              </form>
+                        </div>
+                </div>
             </nav>
-            
+           
         </header>
 
     <main>
-
-        <form class="formContacto" >
-            <fieldset>
-                <legend> Envia tus datos</legend>
-                <div>
-                    <label for="nombre">
-                        Completa tu nombre
-                    </label>
-                    <input type="text" name="nombre" placeholder="ingresa tu nombre">
-                </div>
-                    <br>
-                <div>
-                    <label for="mail">
-                        Completa tu Email
-                    </label>
-                    <input type="email" name="mail" placeholder="ingresa tu correo">
-                </div>
-                    <br>
-                <div>
-                    <label for="pais">
-                        seleccione tu pais
-                    </label>
-                    <select name="pais" id="">
-                        <option value="Argentina">Argentina</option>
-                        <option value="Colombia">Colombia</option>
-                        <option value="Uruguay">Uruguay</option>
-                    </select>
-                </div>
-                    <br>
-                <div>
-                    <input type="submit" value="Enviar">
-                    <input type="submit" value="Resetear">
-                </div>
-            </fieldset>
-        </form>
+        <form class="row g-3 form">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Username</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">State</label>
+              <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
 
     </main>
 
@@ -74,6 +106,6 @@
             <h4>Redes sociales: <a href="https://www.facebook.com/" target="_blank">facebook</a></h4>
         </footer>
     
-
+<script src="../css/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
