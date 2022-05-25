@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--lINK Boostrap-->
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+
     <!--cdn Animaciones-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
@@ -16,14 +19,34 @@
         <header>
             <h1 class=" animate__animated animate__bounce"><img class="img" alt="Logo" src="../img/logo.png">Cultura</h1>
 
-            <nav class="menu">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="destinos.html">Destinos</a</li>
-                    <li><a href="queHacer.html">Que hacer</a></li>
-                    <li><a href="cultura.html">Cultura</a></li>
-                    <li><a href="contacto.html">contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse menuContacto" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="destinos.html">Destinos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="queHacer.html">Que hacer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cultura.html">Cultura</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html">Contacto</a> 
+                            </ul> 
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                              </form>
+                        </div>
+                </div>
             </nav>
             
         </header>
@@ -60,6 +83,7 @@
             <h4>Telefonos: +57 3204578954  </h4>
             <h4>Redes sociales: <a href="https://www.facebook.com/" target="_blank">facebook</a></h4>
         </footer>
-    
+ 
+<script src="../css/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
