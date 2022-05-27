@@ -36,7 +36,7 @@ grid-area: caja3;
 
 @media screen and #{$tablets} {     
 .mainImgIndex{
-    height: 200vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1fr 1fr;
@@ -51,7 +51,7 @@ grid-area: caja3;
 @media screen and #{$desktop} {       
 
 .mainImgIndex{
-    height: 150vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.3fr 1fr;
