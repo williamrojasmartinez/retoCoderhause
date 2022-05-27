@@ -8,11 +8,9 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     background-color: $colorFondoBody; 
-    
+    display: grid;
+    min-height: 100vh;
   
     header{
          background-color: $colorFondoHeader;
@@ -218,7 +216,6 @@ footer{
     color: $colorLetrasFooter;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-top: auto;
     margin-bottom: 0.8rem;
 
     a{

@@ -157,10 +157,9 @@
   box-sizing: border-box; }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #C3B091; }
+  background-color: #C3B091;
+  display: grid;
+  min-height: 100vh; }
   body header {
     background-color: #9b896d; }
     body header .img {
@@ -284,7 +283,6 @@ body {
     color: #ac5532;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-top: auto;
     margin-bottom: 0.8rem; }
     body footer a {
       text-decoration: none;
