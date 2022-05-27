@@ -8,6 +8,9 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: $colorFondoBody; 
     
   
@@ -27,7 +30,7 @@ body{
             justify-content:center;
             align-items: center;
             color: $colorLetrasH1;
-            font-size: 35px;
+            font-size: 2rem;
             text-decoration: underline;
             margin-top: 15px;  
         }
@@ -215,6 +218,7 @@ footer{
     color: $colorLetrasFooter;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-top: auto;
     margin-bottom: 0.8rem;
 
     a{
