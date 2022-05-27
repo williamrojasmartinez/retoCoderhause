@@ -1,5 +1,5 @@
 .mainImgIndex {
-  height: 256vh;
+  height: 305vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.3fr 1fr 1fr 1fr;
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 600px) {
   .mainImgIndex {
-    height: 138vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1fr 1fr;
@@ -28,14 +28,14 @@
 
 @media screen and (min-width: 1024px) {
   .mainImgIndex {
-    height: 70vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.3fr 1fr;
     grid-template-areas: "submenu submenu submenu" "caja1 caja2 caja3"; } }
 
 .mainImgDestinos {
-  height: 337vh;
+  height: 400vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 600px) {
   .mainImgDestinos {
-    height: 175vh;
+    height: 210vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1fr 1fr 1fr;
@@ -75,7 +75,7 @@
 
 @media screen and (min-width: 1024px) {
   .mainImgDestinos {
-    height: 108vh;
+    height: 115vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.3fr 1fr 1fr;
@@ -103,7 +103,7 @@
 
 @media screen and (min-width: 600px) {
   .mainQueHacer {
-    height: 90vh;
+    height: 112vh;
     display: grid;
     padding-top: 20%;
     grid-template-columns: 1fr 1fr;
@@ -136,7 +136,7 @@
 
 @media screen and (min-width: 600px) {
   .mainCultura {
-    height: 80vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.8fr 0.5fr;
@@ -144,7 +144,7 @@
 
 @media screen and (min-width: 1024px) {
   .mainCultura {
-    height: 80vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.8fr 0.5fr;
