@@ -1,0 +1,228 @@
+@import "utilities/mediaqueris"; 
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/extend";
+
+*{
+    @extend %reset;
+}
+
+body{
+    background-color: $colorFondoBody; 
+    
+  
+    header{
+         background-color: $colorFondoHeader;
+         
+        .img{
+            margin-top: 15px;
+            width: 2.5%;
+            margin-right: 2rem;
+            vertical-align: middle;
+            transition: 3s; 
+        }
+
+        h1{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            color: $colorLetrasH1;
+            font-size: 35px;
+            text-decoration: underline;
+            margin-top: 15px;  
+        }
+
+        .menuContacto{
+            margin-top: 50px; 
+
+            ul{
+                font-size: 1rem;
+
+                li{
+                    margin: 0.5rem;
+                    background-color: $colorFondoli;
+                    border-radius: 1.3rem;
+                    padding: 0.6rem;
+
+                    &:hover{
+                        background-image:$colorFondoLiHover;
+                        border-radius: 2rem;
+                        transform: translate(4px, 4px);
+                    }
+
+                    a{
+                        text-decoration: none;
+                        color: rgb(8, 57, 48);
+                    }
+                }
+            }
+        }
+    }
+
+
+  main{
+    margin-left: 1rem;
+    margin-right: 1rem; 
+
+    h2{
+        margin: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 30px;
+        color: $colorLetrasH2;
+    }
+
+    .caja1{
+        .h3Uno{
+            @include cajaH3Index;
+            
+        }
+
+        .pImgUno{
+            @include cajaParrafoImagenIndex;
+        }
+
+        .imgUno{
+            @include cajaImagenIndex;
+             
+        }
+    }
+
+    .caja2{
+        .h3Dos{
+            @include cajaH3Index;
+            
+        }
+
+        .pImgDos{
+            @include cajaParrafoImagenIndex;
+        }
+
+        .imgDos{
+            @include cajaImagenIndex
+             
+        }
+    }
+
+    .caja3{
+        .h3Tres{
+            @include cajaH3Index;
+            
+        }
+
+        .pImgTres{
+            @include cajaParrafoImagenIndex;
+        }
+
+        .imgTres{
+            @include cajaImagenIndex
+             
+        }
+    }
+
+    div h3{
+        text-align: center;
+        font-size: 1.5rem;
+        
+        a{
+            text-decoration: none;
+            color: $colorLetrasH3Destinos;
+        }
+    }
+
+
+    .cajaDes1{
+
+        .imgDes1{
+            @include imagenesTamanioDestino;
+        }
+    }
+
+    .cajaDes2{
+
+        .imgDes2{
+            @include imagenesTamanioDestino;
+        }
+    }
+
+    .cajaDes3{
+
+        .imgDes3{
+            @include imagenesTamanioDestino;
+        }
+    }
+
+    .cajaDes4{
+
+        .imgDes4{
+            @include imagenesTamanioDestino;
+        }
+    }
+
+    .cajaDes5{
+
+        .imgDes5{
+            @include imagenesTamanioDestino;
+        }
+    }
+
+    .cajaDes6{
+
+        .imgDes6{
+            @include imagenesTamanioDestino;
+        }
+    }
+
+    .cajaQHacer2{
+
+        .video{
+            @include imagenesTamanioDestino;
+        }
+    }
+
+    .cajaCultura2{
+
+        .imgcultura1{
+            @include imagenesTamanioCultura;
+        }
+    }
+
+    .cajaCultura3{
+
+        .imgcultura2{
+            @include imagenesTamanioCultura;
+        }
+    }
+
+    .form{
+        @include imagenesTamanioCultura;
+    }
+  }
+
+.formularioContacto{
+    margin-top: 14rem;
+    margin-bottom: 14.5rem;
+}
+
+.subtituloH2Contacto{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $colorFondoFooter;
+    color: $colorLetrasFooter;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0.8rem;
+
+    a{
+        text-decoration: none;
+        color: $colorLetrasFooter;
+        font-size: 1.5rem;
+   }
+}
+
+
+}

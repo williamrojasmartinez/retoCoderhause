@@ -1,444 +1,288 @@
+.mainImgIndex {
+  height: 256vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr 1fr;
+  grid-template-areas: "submenu" "caja1" "caja2" "caja3"; }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+.submenu {
+  grid-area: submenu;
+  text-align: center; }
 
-body{
-    background-color: #C3B091;
-  /*  box-shadow: 0px 0px 10px gray;*/ /*→ para hacer una caja*/
-}
+.caja1 {
+  grid-area: caja1; }
 
-.img{
-    margin-top: 15px;
-    width: 2.5%;
-    margin-right: 2rem;
-    vertical-align: middle;
-    transition: 3s;
-}
+.caja2 {
+  grid-area: caja2; }
 
-header h1{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color: #5F7464;
-    font-size: 35px;
-    text-decoration: underline;
-    margin-top: 15px;  
-}
+.caja3 {
+  grid-area: caja3; }
 
-.menuContacto{
-    margin-top: 50px; 
-}
-
-.menuContacto ul{
-    list-style: none;
-    color: rgb(8, 57, 48);
-    font-size: 1.1rem;
-}
-
-.menuContacto ul li a{
-    text-decoration: none;
-    color: rgb(8, 57, 48);
-}
-
-.menuContacto ul li{
-    margin: 0.5rem;
-    background-color: #5F7464;
-    border-radius: 1.3rem;
-    padding: 0.6rem;
-}
-
-/* esto se hace para cuando se pase el mause por el los li muestre un color en especial */
-.menuContacto ul li:hover{
-    background-image:linear-gradient(#3d4956, #6987a8);
-    border-radius: 2rem;
-    transform: translate(4px, 4px);
-}
-
-
-main{
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-main h2{
-    margin: 10px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-size: 30px;
-    color: #5F7464;
-}
-
-.h3Uno{
-    text-align: center;
-    color: rgb(8, 57, 48);
-    
-}
-
-.h3Dos{
-    text-align: center;
-    color: rgb(8, 57, 48);
-}
-
-.h3Tres{
-    text-align: center;
-    color: rgb(8, 57, 48);
-}
-
-.pImgUno{
-    text-align: center;
-}
-
-.pImgDos{
-    text-align: center;
-}
-
-.pImgTres{
-    text-align: center;
-}
-
-.imgUno{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-     
-}
-
-.imgDos{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-.imgTres{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-/*-------------------- M-Q Index-----------------*/
-
-    .mainImgIndex{
-        height: 256vh;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 1fr 1fr 1fr;
-        grid-template-areas: "submenu"
-                             "caja1"
-                             "caja2"
-                             "caja3"; 
-      
- }
-
- .submenu{
-    grid-area: submenu;
-    text-align:center;
-    }
-    
-    .caja1{
-    grid-area: caja1;
-    
-    }
-    
-    .caja2{
-    grid-area: caja2;
-    
-    
-    }
-    
-    .caja3{
-    grid-area: caja3; 
-    }
-
-@media screen and (min-width:600px) {
-    .mainImgIndex{
-        height: 130vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.3fr 1fr 1fr;
-        grid-template-areas: "submenu submenu"
-                             "caja1 caja2"
-                             "caja3 caja3";
-    }
-    }  
-    
-    
-
-@media screen and (min-width:1024px) {
-
-    .mainImgIndex{
-        height: 70vh;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0.3fr 1fr;
-        grid-template-areas: "submenu submenu submenu"
-                             "caja1 caja2 caja3";
-    }
-}  
-
-/*---------------------------------------------------------------------------------------------*/
-
-
-
-main div h3{
-    text-align: center;
-     
-}
-
-main div h3 a{
-    text-decoration: none;
-    color: rgb(8, 57, 48);
-}
-
-.imgDes1{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-.imgDes2{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-.imgDes3{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-.imgDes4{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-.imgDes5{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-.imgDes6{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-/*-------------------- M-Q Destinos-----------------*/
-.mainImgDestinos{
-    height: 337vh;
+@media screen and (min-width: 600px) {
+  .mainImgIndex {
+    height: 138vh;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "pPrincipalMain"
-                         "cajaDes1"
-                         "cajaDes2"
-                         "cajaDes3"
-                         "cajaDes4"
-                         "cajaDes5"
-                         "cajaDes6"; 
-  
-}
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-areas: "submenu submenu" "caja1 caja2" "caja3 caja3"; } }
 
-.pPrincipalMain{
-    grid-area: pPrincipalMain;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-}
-
-.cajaDes1{
-    grid-area: cajaDes1;
-}
-
-.cajaDes2{
-    grid-area: cajaDes2;
-}
-
-.cajaDes3{
-    grid-area: cajaDes3;
-}
-
-.cajaDes4{
-    grid-area: cajaDes4;
-}
-
-.cajaDes5{
-    grid-area: cajaDes5;
-}
-
-.cajaDes6{
-    grid-area: cajaDes6;
-}
-
-
-@media screen and (min-width:600px) {
-    .mainImgDestinos{
-        height: 156vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.3fr 1fr 1fr 1fr;
-        grid-template-areas: "pPrincipalMain pPrincipalMain"
-                             "cajaDes1 cajaDes2"
-                             "cajaDes3 cajaDes4"
-                             "cajaDes5 cajaDes6";
-    }
-    }
-
-
-
-    @media screen and (min-width:1024px) {
-
-        .mainImgDestinos{
-            height: 100vh;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 0.3fr 1fr 1fr;
-            grid-template-areas: "pPrincipalMain pPrincipalMain pPrincipalMain"
-                                 "cajaDes1 cajaDes2 cajaDes3"
-                                 "cajaDes4 cajaDes5 cajaDes6";
-        }
-    }
-
-/*-------------------------------------------------------------*/
-
-
-.video{
-    width: 96%;
-    height: 350px;
-    margin: 0 auto;
-}
-
-/*----------------------- M-Q ¿Que Hacer?----------------------*/
-
-
-.mainQueHacer{
-    height: 124vh;
+@media screen and (min-width: 1024px) {
+  .mainImgIndex {
+    height: 70vh;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: "submenu submenu submenu" "caja1 caja2 caja3"; } }
+
+.mainImgDestinos {
+  height: 337vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "pPrincipalMain" "cajaDes1" "cajaDes2" "cajaDes3" "cajaDes4" "cajaDes5" "cajaDes6"; }
+
+.pPrincipalMain {
+  grid-area: pPrincipalMain;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem; }
+
+.cajaDes1 {
+  grid-area: cajaDes1; }
+
+.cajaDes2 {
+  grid-area: cajaDes2; }
+
+.cajaDes3 {
+  grid-area: cajaDes3; }
+
+.cajaDes4 {
+  grid-area: cajaDes4; }
+
+.cajaDes5 {
+  grid-area: cajaDes5; }
+
+.cajaDes6 {
+  grid-area: cajaDes6; }
+
+@media screen and (min-width: 600px) {
+  .mainImgDestinos {
+    height: 175vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr;
+    grid-template-areas: "pPrincipalMain pPrincipalMain" "cajaDes1 cajaDes2" "cajaDes3 cajaDes4" "cajaDes5 cajaDes6"; } }
+
+@media screen and (min-width: 1024px) {
+  .mainImgDestinos {
+    height: 108vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-areas: "pPrincipalMain pPrincipalMain pPrincipalMain" "cajaDes1 cajaDes2 cajaDes3" "cajaDes4 cajaDes5 cajaDes6"; } }
+
+.mainQueHacer {
+  height: 162vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr;
+  grid-template-areas: "cajaQHacer1" "cajaQHacer2"; }
+
+.cajaQHacer1 {
+  grid-area: cajaQHacer1;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.cajaQHacer2 {
+  grid-area: cajaQHacer2;
+  display: grid; }
+
+@media screen and (min-width: 600px) {
+  .mainQueHacer {
+    height: 90vh;
+    display: grid;
+    padding-top: 20%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr;
-    grid-template-areas: "cajaQHacer1"
-                         "cajaQHacer2";
-}
+    grid-template-areas: "cajaQHacer1 cajaQHacer2"; } }
 
-.cajaQHacer1{
-    grid-area: cajaQHacer1;
+@media screen and (min-width: 1024px) {
+  .mainQueHacer {
+    height: 68vh;
     display: grid;
-    align-items: center;
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    padding-top: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    grid-template-areas: "cajaQHacer1 cajaQHacer2"; } }
 
-.cajaQHacer2{
-    grid-area: cajaQHacer2;
-    display: grid
-    
-}
+.mainCultura {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.8fr 0.8fr;
+  grid-template-areas: "cajaCultura1" "cajaCultura2" "cajaCultura3"; }
 
-@media screen and (min-width:600px) {
-    .mainQueHacer{
-        height: 70vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.5fr;
-        grid-template-areas: "cajaQHacer1 cajaQHacer2";
-        }
-}
+.cajaCultura1 {
+  grid-area: cajaCultura1; }
 
-@media screen and (min-width:1024px) {
-    .mainQueHacer{
-        height: 68vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.5fr;
-        grid-template-areas: "cajaQHacer1 cajaQHacer2";
-        }
-}
+.cajaCultura2 {
+  grid-area: cajaCultura2; }
 
-/*-------------------------------------------------------------*/
+.cajaCultura3 {
+  grid-area: cajaCultura3; }
 
-
-
-.imgcultura1{
-    width: 96%;
-    margin: 0 auto;
-}
-
-.imgcultura2{
-    width: 96%;
-    margin: 0 auto;
-}
-
-/*--------------------------MQ-Cultuta------------------------*/
-
-.mainCultura{
+@media screen and (min-width: 600px) {
+  .mainCultura {
+    height: 80vh;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.8fr 0.8fr;
-    grid-template-areas: "cajaCultura1"
-                         "cajaCultura2"
-                         "cajaCultura3";
-    
-}
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 0.5fr;
+    grid-template-areas: "cajaCultura1 cajaCultura1" "cajaCultura2 cajaCultura3"; } }
 
-.cajaCultura1{
-    grid-area: cajaCultura1;
-}
+@media screen and (min-width: 1024px) {
+  .mainCultura {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 0.5fr;
+    grid-template-areas: "cajaCultura1 cajaCultura1" "cajaCultura2 cajaCultura3";
+    justify-content: space-around; } }
 
-.cajaCultura2{
-    grid-area: cajaCultura2;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.cajaCultura3{
-    grid-area: cajaCultura3;
-}
-
-@media screen and (min-width:600px) {
-    .mainCultura{
-        height: 90vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.8fr 0.5fr;
-        grid-template-areas: "cajaCultura1 cajaCultura1"
-                             "cajaCultura2 cajaCultura3";
-    }
-}
-
-@media screen and (min-width:1024px) {
-    .mainCultura{
-        height: 90vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.8fr 0.5fr;
-        grid-template-areas: "cajaCultura1 cajaCultura1"
-                             "cajaCultura2 cajaCultura3";
-        justify-content: space-around;
-    }
-}
-
-
-/*----------------------------------------------------------*/
-.form{
-    margin-top: 10rem;
-    height: 35rem;
-}
-
-footer{
+body {
+  background-color: #C3B091; }
+  body header {
+    background-color: #9b896d; }
+    body header .img {
+      margin-top: 15px;
+      width: 2.5%;
+      margin-right: 2rem;
+      vertical-align: middle;
+      transition: 3s; }
+    body header h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #5F7464;
+      font-size: 35px;
+      text-decoration: underline;
+      margin-top: 15px; }
+    body header .menuContacto {
+      margin-top: 50px; }
+      body header .menuContacto ul {
+        font-size: 1rem; }
+        body header .menuContacto ul li {
+          margin: 0.5rem;
+          background-color: #5F7464;
+          border-radius: 1.3rem;
+          padding: 0.6rem; }
+          body header .menuContacto ul li:hover {
+            background-image: linear-gradient(#3d4956, #6987a8);
+            border-radius: 2rem;
+            transform: translate(4px, 4px); }
+          body header .menuContacto ul li a {
+            text-decoration: none;
+            color: #083930; }
+  body main {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    body main h2 {
+      margin: 10px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      font-size: 30px;
+      color: #083930; }
+    body main .caja1 .h3Uno {
+      text-align: center;
+      color: #083930; }
+    body main .caja1 .pImgUno {
+      text-align: center; }
+    body main .caja1 .imgUno {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .caja2 .h3Dos {
+      text-align: center;
+      color: #083930; }
+    body main .caja2 .pImgDos {
+      text-align: center; }
+    body main .caja2 .imgDos {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .caja3 .h3Tres {
+      text-align: center;
+      color: #083930; }
+    body main .caja3 .pImgTres {
+      text-align: center; }
+    body main .caja3 .imgTres {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main div h3 {
+      text-align: center;
+      font-size: 1.5rem; }
+      body main div h3 a {
+        text-decoration: none;
+        color: #083930; }
+    body main .cajaDes1 .imgDes1 {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .cajaDes2 .imgDes2 {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .cajaDes3 .imgDes3 {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .cajaDes4 .imgDes4 {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .cajaDes5 .imgDes5 {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .cajaDes6 .imgDes6 {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .cajaQHacer2 .video {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto; }
+    body main .cajaCultura2 .imgcultura1 {
+      width: 96%;
+      margin: 0 auto; }
+    body main .cajaCultura3 .imgcultura2 {
+      width: 96%;
+      margin: 0 auto; }
+    body main .form {
+      width: 96%;
+      margin: 0 auto; }
+  body .formularioContacto {
+    margin-top: 14rem;
+    margin-bottom: 14.5rem; }
+  body .subtituloH2Contacto {
+    text-align: center; }
+  body footer {
+    display: flex;
+    justify-content: space-evenly;
     background-color: #E4CDA7;
-    padding-top: 3.5rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    font-size: 18px;
-    color: rgb(8, 57, 48);
-}
-
-footer a{
-    text-decoration: none;
-    color: rgb(8, 57, 48);
-}
+    color: #ac5532;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0.8rem; }
+    body footer a {
+      text-decoration: none;
+      color: #ac5532;
+      font-size: 1.5rem; }

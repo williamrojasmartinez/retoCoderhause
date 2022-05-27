@@ -1,0 +1,248 @@
+@import "variables";
+
+//-------------------- M-Q Index-----------------
+
+.mainImgIndex{
+    height: 256vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr;
+    grid-template-areas: "submenu"
+                         "caja1"
+                         "caja2"
+                         "caja3"; 
+  
+}
+
+.submenu{
+grid-area: submenu;
+text-align:center;
+}
+
+.caja1{
+grid-area: caja1;
+
+}
+
+.caja2{
+grid-area: caja2;
+
+
+}
+
+.caja3{
+grid-area: caja3; 
+}
+
+@media screen and #{$tablets} {     
+.mainImgIndex{
+    height: 138vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-areas: "submenu submenu"
+                         "caja1 caja2"
+                         "caja3 caja3";
+}
+}  
+
+
+
+@media screen and #{$desktop} {       
+
+.mainImgIndex{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: "submenu submenu submenu"
+                         "caja1 caja2 caja3";
+}
+}  
+
+//--------------------------------------------------------------------------
+
+
+
+//------------------- M-Q Destinos-----------------
+.mainImgDestinos{
+    height: 337vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "pPrincipalMain"
+                         "cajaDes1"
+                         "cajaDes2"
+                         "cajaDes3"
+                         "cajaDes4"
+                         "cajaDes5"
+                         "cajaDes6"; 
+  
+}
+
+.pPrincipalMain{
+    grid-area: pPrincipalMain;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.cajaDes1{
+    grid-area: cajaDes1;
+}
+
+.cajaDes2{
+    grid-area: cajaDes2;
+}
+
+.cajaDes3{
+    grid-area: cajaDes3;
+}
+
+.cajaDes4{
+    grid-area: cajaDes4;
+}
+
+.cajaDes5{
+    grid-area: cajaDes5;
+}
+
+.cajaDes6{
+    grid-area: cajaDes6;
+}
+
+
+@media screen and #{$tablets} {
+    .mainImgDestinos{
+        height: 175vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 1fr 1fr 1fr;
+        grid-template-areas: "pPrincipalMain pPrincipalMain"
+                             "cajaDes1 cajaDes2"
+                             "cajaDes3 cajaDes4"
+                             "cajaDes5 cajaDes6";
+    }
+    }
+
+
+
+    @media screen and #{$desktop} {
+
+        .mainImgDestinos{
+            height: 108vh;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 0.3fr 1fr 1fr;
+            grid-template-areas: "pPrincipalMain pPrincipalMain pPrincipalMain"
+                                 "cajaDes1 cajaDes2 cajaDes3"
+                                 "cajaDes4 cajaDes5 cajaDes6";
+        }
+    }
+
+//-------------------------------------------------------------
+
+
+//----------------------- M-Q ¿Que Hacer?----------------------
+
+
+.mainQueHacer{
+    height: 162vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr;
+    grid-template-areas: "cajaQHacer1"
+                         "cajaQHacer2";
+}
+
+.cajaQHacer1{
+    grid-area: cajaQHacer1;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cajaQHacer2{
+    grid-area: cajaQHacer2;
+    display: grid
+    
+}
+
+@media screen and #{$tablets} {
+    .mainQueHacer{
+        height: 90vh;
+        display: grid;
+        padding-top: 20%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr;
+        grid-template-areas: "cajaQHacer1 cajaQHacer2";
+        }
+}
+
+@media screen and #{$desktop} {
+    .mainQueHacer{
+        height: 68vh;
+        display: grid;
+        padding-top: 10%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr;
+        grid-template-areas: "cajaQHacer1 cajaQHacer2";
+    
+        }
+}
+
+//-------------------------------------------------------------
+
+
+//--------------------------MQ-Cultuta------------------------
+
+.mainCultura{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.8fr 0.8fr;
+    grid-template-areas: "cajaCultura1"
+                         "cajaCultura2"
+                         "cajaCultura3";
+    
+}
+
+.cajaCultura1{
+    grid-area: cajaCultura1;
+}
+
+.cajaCultura2{
+    grid-area: cajaCultura2;
+}
+
+.cajaCultura3{
+    grid-area: cajaCultura3;
+}
+
+@media screen and #{$tablets} {
+    .mainCultura{
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.8fr 0.5fr;
+        grid-template-areas: "cajaCultura1 cajaCultura1"
+                             "cajaCultura2 cajaCultura3";
+    }
+}
+
+@media screen and #{$desktop} {
+    .mainCultura{
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.8fr 0.5fr;
+        grid-template-areas: "cajaCultura1 cajaCultura1"
+                             "cajaCultura2 cajaCultura3";
+        justify-content: space-around;
+    }
+}
+
+
+//----------------------------------------------------------

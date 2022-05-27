@@ -1,0 +1,36 @@
+@import "variables";
+
+//index.html
+
+@mixin cajaH3Index {
+    text-align: center;
+    color: $colorLetrasH3Index;
+}
+
+@mixin cajaParrafoImagenIndex {
+    text-align: center;
+}
+
+@mixin cajaImagenIndex {
+    width: 96%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+
+
+//destinos.html
+
+@mixin imagenesTamanioDestino {
+      width: 96%;
+      height: 350px;
+      margin: 0 auto;
+}
+
+
+//cultura.html
+
+@mixin imagenesTamanioCultura {
+     width: 96%;
+     margin: 0 auto;
+}
