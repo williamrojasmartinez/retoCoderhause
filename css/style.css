@@ -157,9 +157,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #C3B091;
-  display: grid;
-  min-height: 100vh; }
+  background-color: #C3B091; }
   body header {
     background-color: #9b896d; }
     body header .img {
