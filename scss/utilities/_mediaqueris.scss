@@ -36,7 +36,7 @@ grid-area: caja3;
 
 @media screen and #{$tablets} {     
 .mainImgIndex{
-    height: 130vh;
+    height: 200vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1fr 1fr;
