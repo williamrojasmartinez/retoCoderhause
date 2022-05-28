@@ -82,7 +82,7 @@
     grid-template-areas: "pPrincipalMain pPrincipalMain pPrincipalMain" "cajaDes1 cajaDes2 cajaDes3" "cajaDes4 cajaDes5 cajaDes6"; } }
 
 .mainQueHacer {
-  height: 162vh;
+  height: 190vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr;
@@ -103,7 +103,7 @@
 
 @media screen and (min-width: 600px) {
   .mainQueHacer {
-    height: 112vh;
+    height: 150vh;
     display: grid;
     padding-top: 20%;
     grid-template-columns: 1fr 1fr;
@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 1024px) {
   .mainQueHacer {
-    height: 68vh;
+    height: 80vh;
     display: grid;
     padding-top: 10%;
     grid-template-columns: 1fr 1fr;
