@@ -114,7 +114,7 @@ grid-area: caja3;
 
 @media screen and #{$tablets} {
     .mainImgDestinos{
-        height: 210vh;
+        height: 250vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.3fr 1fr 1fr 1fr;
