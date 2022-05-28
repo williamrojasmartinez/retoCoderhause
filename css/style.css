@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 600px) {
   .mainImgIndex {
-    height: 100vh;
+    height: 130vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1fr 1fr;
