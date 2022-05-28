@@ -1,5 +1,5 @@
 .mainImgIndex {
-  height: 350vh;
+  height: 305vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.3fr 1fr 1fr 1fr;
