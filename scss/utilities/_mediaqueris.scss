@@ -66,7 +66,7 @@ grid-area: caja3;
 
 //------------------- M-Q Destinos-----------------
 .mainImgDestinos{
-    height: 400vh;
+    height: 450vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -130,7 +130,7 @@ grid-area: caja3;
     @media screen and #{$desktop} {
 
         .mainImgDestinos{
-            height: 115vh;
+            height: 150vh;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 0.3fr 1fr 1fr;
