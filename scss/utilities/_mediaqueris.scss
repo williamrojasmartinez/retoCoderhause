@@ -147,7 +147,7 @@ grid-area: caja3;
 
 
 .mainQueHacer{
-    height: 190vh;
+    height: 200vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr;
@@ -184,7 +184,7 @@ grid-area: caja3;
 
 @media screen and #{$desktop} {
     .mainQueHacer{
-        height: 80vh;
+        height: 90vh;
         display: grid;
         padding-top: 10%;
         grid-template-columns: 1fr 1fr;
@@ -223,7 +223,7 @@ grid-area: caja3;
 
 @media screen and #{$tablets} {
     .mainCultura{
-        height: 90vh;
+        height: 115vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.8fr 0.5fr;
@@ -234,7 +234,7 @@ grid-area: caja3;
 
 @media screen and #{$desktop} {
     .mainCultura{
-        height: 90vh;
+        height: 115vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.8fr 0.5fr;
