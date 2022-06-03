@@ -165,7 +165,8 @@ body {
       width: 2.5%;
       margin-right: 2rem;
       vertical-align: middle;
-      transition: 3s; }
+      transition: 3s;
+      cursor: pointer; }
     body header h1 {
       display: flex;
       justify-content: center;

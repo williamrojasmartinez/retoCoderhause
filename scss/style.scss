@@ -20,6 +20,7 @@ body{
             margin-right: 2rem;
             vertical-align: middle;
             transition: 3s; 
+            cursor: pointer;
         }
 
         h1{
@@ -210,7 +211,7 @@ body{
 
 footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     background-color: $colorFondoFooter;
     color: $colorLetrasFooter;
     padding-top: 1rem;
