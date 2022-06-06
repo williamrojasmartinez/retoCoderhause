@@ -161,9 +161,12 @@ body {
   body header {
     background-color: #9b896d; }
     body header .img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-top: 15px;
-      width: 2.5%;
-      margin-right: 2rem;
+      width: 3.5rem;
+      margin-right: 0.8rem;
       vertical-align: middle;
       transition: 3s;
       cursor: pointer; }
@@ -272,7 +275,7 @@ body {
       margin: 0 auto; }
   body .formularioContacto {
     margin-top: 14rem;
-    margin-bottom: 14.5rem; }
+    margin-bottom: 18.5rem; }
   body .subtituloH2Contacto {
     text-align: center; }
   body footer {
